@@ -1,0 +1,38 @@
+/***************************/
+/* Media Query */
+/***************************/
+@media all and (max-width: 1282px) {
+  .countrie-detail .detail-flag {
+    margin-bottom: 35px;
+  }
+}
+
+@media all and (max-width: 774px) {
+  /* Search bar  */
+  #input-bar {
+    padding: 0px 10px;
+    padding-top: 50px;
+  }
+  .search input {
+    width: 80vw;
+    max-width: 400px;
+    min-width: 290px;
+  }
+}
+
+@media all and (max-width: 644px) {
+  /* filter input */
+  .filter-input {
+    margin-top: 25px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  /* Details */
+  .data {
+    padding-left: 10px;
+  }
+  .back {
+    margin-left: 35px;
+  }
+}

@@ -1,0 +1,105 @@
+:root {
+  /* Colors */
+  /* Neutral */
+  --Blue: hsl(209, 23%, 22%);
+  --Dark-Blue: hsl(207, 26%, 17%);
+  --Very-Dark-Blue: hsl(200, 15%, 8%);
+  --Dark-Gray: hsl(0, 0%, 52%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.countrie-detail {
+  display: none;
+}
+
+/* Back Button */
+.back {
+  width: 100px;
+  color: var(--Very-Dark-Blue);
+  background-color: var(--White);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px;
+  margin-left: 65px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-top: 50px;
+}
+.arrow-left {
+  width: 10px;
+  margin-right: 10px;
+}
+
+/* Detail */
+.details {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.countrie-detail .detail-flag {
+  width: 90%;
+  min-width: 310px;
+  max-width: 495px;
+  max-height: 350px;
+}
+
+.data {
+  padding-left: 75px;
+  color: var(--Very-Dark-Blue);
+}
+.data .txt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 35px;
+}
+.data .txt .first {
+  margin-right: 100px;
+}
+.data .txt p span {
+  margin-left: 5px;
+}
+.details p {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.details p span {
+  font-weight: initial;
+}
+
+.border-countries {
+  line-height: 40px;
+}
+.border-countries span {
+  background-color: var(--White);
+  padding: 5px 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin: 0px 8px;
+  pointer-events: none;
+}
+
+/*********************/
+/* JavaScript */
+/*********************/
+.dark-back {
+  background-color: var(--Blue);
+  color: var(--Very-Light-Gray);
+}
+.dark-arrow-left {
+  fill: var(--Very-Light-Gray);
+}
+.dark-details p,
+.dark-details h2 {
+  color: var(--Very-Light-Gray);
+}
+.dark-border-countries span {
+  background-color: var(--Blue);
+}
